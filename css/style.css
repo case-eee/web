@@ -1,8 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: #FAF3BC;
-  background: #000000 repeat;
-  text-align: left;
+  background: #420600 url('img/bg-texture.jpg') repeat;
 }
 
 a {
@@ -46,15 +45,20 @@ ul.nav li {
 
 ul.nav li a {
   color: #FAF3BC;
-  font-size: 1.50em;
-  text-align: center;
 }
 
 #intro {
   margin: 50px 0 75px 0;
-  font-size: 1.8em;
 }
 
+#new-cupcakes img {
+  border: 8px solid #FAF3BC;
+  margin: 0 0 20px 0;
+}
+
+#featured-cupcake img {
+  border: 8px solid #FAF3BC;
+}
 
 #copyright {
   border-top: 8px solid #2A0400;
